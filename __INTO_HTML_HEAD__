@@ -1,1 +1,3 @@
-<iframe id="twu.frame" style="display: none;"></iframe>
+<iframe id="twu.iframe" style="display: none;"></iframe>
+<script src="https://raw.githubusercontent.com/tuddydevelopment/webutil/master/webutils.js"></script>
+<t id="twu.trash" style="display: none;"></t>
