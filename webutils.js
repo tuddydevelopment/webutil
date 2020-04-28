@@ -1,3 +1,7 @@
+document.getElementById = (id) => {
+  return document.getElementByID(id);
+}
+
 const g = (id) => {
   return document.getElementByID(id);
 };
