@@ -21,7 +21,7 @@ const cloneObj = (obj) => {
   return r;
 };
 
-const createFrame => (id) {
+const createFrame = (id) => {
   const frame = g(id);
   const oFrame = cloneObj(frame);
   setObj(frame, g("twu.iframe"));
