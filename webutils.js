@@ -25,4 +25,6 @@ const createFrame => (id) {
   frame.style = oFrame.style;
   frame.style.display = "none";
   frame.style.border = "0 solid #ffffff"
+
+  frame.style.display = oFrame.style.display;
 };
