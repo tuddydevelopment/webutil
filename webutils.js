@@ -1,5 +1,5 @@
 const g = (id) => {
-  return document.getElementById(id);
+  return document.getElementByID(id);
 };
 
 const setObj = (oldObj, newObj) => {
