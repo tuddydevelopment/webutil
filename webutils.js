@@ -3,10 +3,10 @@ const g = (id) => {
 };
 
 const setObj = (oldObj, newObj) => {
-  for(let key of Objects.keys(oldObj)) {
+  for(let key of Object.keys(oldObj)) {
     oldObj[key] = undefined;
   }
-  for(let key of Objects.keys(newObj)) {
+  for(let key of Object.keys(newObj)) {
     oldObj[key] = newObj[key];
   }
 };
