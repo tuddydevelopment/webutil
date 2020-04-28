@@ -1,9 +1,5 @@
-document.getElementById = (id) => {
-  return document.getElementByID(id);
-}
-
 const g = (id) => {
-  return document.getElementByID(id);
+  return document.getElementById(id);
 };
 
 const setObj = (oldObj, newObj) => {
@@ -21,14 +17,11 @@ const cloneObj = (obj) => {
   return r;
 };
 
-const createFrame = (id) => {
+const createFrame = (id, src) => {
   const frame = g(id);
-  const oFrame = cloneObj(frame);
-  setObj(frame, g("twu.iframe"));
-  frame.src = oFrame.src;
-  frame.style = oFrame.style;
   frame.style.display = "none";
-  frame.style.border = "0 solid #ffffff"
+  frame.style.borderWidth = "0px";
+  frame.src = src;
 
-  frame.style.display = oFrame.style.display;
+  frame.style.display = "";
 };
